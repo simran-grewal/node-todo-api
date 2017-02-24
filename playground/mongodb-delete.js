@@ -29,8 +29,8 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
     // });
 
 
-    db.collection('User').findOneAndDelete({Name: 'Grewal singh'}).then((result) => {
-      console.log(result);
-    })
+    // db.collection('User').findOneAndDelete({Name: 'Grewal singh'}).then((result) => {
+    //   console.log(result);
+    // })
 
   });
